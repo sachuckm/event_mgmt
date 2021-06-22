@@ -1,0 +1,15 @@
+.video-container {
+  width: 100vw;
+  display: grid;
+  height: 100vh;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+}
+#myVideo {
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -100;
+}
