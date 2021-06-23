@@ -1,0 +1,78 @@
+.video-container {
+  width: 100vw;
+  display: grid;
+  height: 100vh;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+}
+#myVideo {
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -100;
+}
+
+.about {
+  color: #7a7c7f;
+  font-size: 29px;
+  font-family: "Libre Baskerville", serif;
+  line-height: 45px;
+  text-align: center;
+  text-shadow: 0 1px 1px #fff;
+  padding-top: 20px;
+  margin: 0 5%;
+  width: 90%;
+}
+.aboutHeader {
+  color: #d54d7b;
+  font-family: "Great Vibes", cursive;
+  font-size: 100px;
+  line-height: 160px;
+  font-weight: normal;
+  margin-bottom: 0px;
+  margin-top: 40px;
+  text-align: center;
+  text-shadow: 0 1px 1px #fff;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 1.7rem;
+  overflow: hidden;
+  /* background-color: #333; */
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+  border-radius: 10px;
+}
+
+.GalleryTitle {
+  font-size: 50px;
+  width: 100%;
+  text-align: center;
+  margin: 40px;
+  color: #d54d7b;
+  font-family: "Great Vibes", cursive;
+  font-weight: normal;
+  /* margin-bottom: 0px; */
+  /* margin-bottom: 40px; */
+  text-align: center;
+  text-shadow: 0 1px 1px #fff;
+}
